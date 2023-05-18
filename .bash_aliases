@@ -1,0 +1,16 @@
+alias iptables='/usr/sbin/iptables'
+alias lll='clear; /usr/sbin/iptables -L -vn'
+alias ll='ls -alh --color=auto'
+alias net='netstat -ant'
+alias sct='systemctl'
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias d='docker'
+alias ddown='d compose down'
+alias dcompose='docker compose'
+alias dimages='docker image rm $(docker image ls -q)'
+alais sall='docker container stop $(docker ps -a -q)'
+alais dall='docker container rm $(docker ps -a -q)'
